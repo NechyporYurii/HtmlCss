@@ -1,0 +1,267 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+ol {
+    margin: 0;
+    padding-left: 14px;
+}
+
+table {
+    margin: 50px 0px 100px 0px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+form {
+    width: 340px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input {
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    width: 300px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    margin-bottom: 15px;
+}
+
+textarea {
+    border: none;
+    font-size: 18px;
+    resize: none;
+    border-bottom: 1px solid #757575;
+    height: 100px;
+    width: 300px;
+    padding: 10px 10px 10px 5px;
+}
+
+button{
+    background-color: rgba(25,118,217,255);
+    width: 315px;
+    color: white;
+    border: none;
+    height: 40px;
+    margin: 15px 0px 30px 0px;
+}
+
+textarea,input:focus {
+    outline: none;
+}
+
+.header {
+    height: 120px;
+    width: 100%;
+    background-color: rgba(25,118,217,255);
+}
+
+.header span {
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 50px 0px 0px 200px;
+    color: white;
+}
+
+.header span a {
+    text-decoration: none;
+    color: white;
+}
+
+#main_menu {
+    margin: 50px 120px 0px 70px;
+    float: right;
+    width: 400px;
+    height: 200px;
+}
+
+#main_menu ul li {
+    float:left;
+    margin-right: 30px;
+}
+
+#main_menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+#main_menu ul li a:hover {
+    color: rgba(0, 0, 0, 0.84);
+}
+
+.content_section {
+    color: rgba(70, 70, 70, 0.82);
+    padding-top: 30px;
+}
+
+.content_section h3 {
+    margin-left: 30px;
+    color: black;
+}
+
+.content_first_part {
+    margin-bottom: 30px;
+    padding-left: 270px;
+}
+
+.user_profile {
+    height: 50px;
+}
+
+.user_profile img {
+    width: 45px;
+    height: 40px;
+    float: left;
+}
+
+.user_name {
+    margin-left: 70px;
+    padding-top: 10px;
+}
+
+.date {
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.content_title {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.content_text {
+    margin-right: 300px;
+}
+
+.bold_text {
+    font-weight: bold;
+    color: black;
+}
+
+#google_text {
+    color: #03d7ff;
+    font-weight: normal;
+}
+
+#italic {
+    font-style: italic;
+}
+
+.content_second_part {
+    padding: 30px 0px 40px 270px;
+    background-color: rgba(245,245,245,255);
+}
+
+.footer {
+    width: 100%;
+    height: 180px;
+    background-color: rgba(12,31,62,255);
+    font-size: 14px;
+}
+
+.footer_left_side {
+    padding-top: 60px;
+    margin-left: 200px;
+    float: left;
+}
+
+#footer_links_section {
+    padding-top: 20px;
+}
+
+#footer_links_section ul li a {
+     color: #19b899;
+     text-decoration: none;
+}
+
+#footer_links_section ul li a:hover {
+    color: #c2862c;
+}
+
+.footer_right_side {
+    padding-top: 60px;
+    margin-left: 200px;
+    float: left;
+    color: white;
+}
+
+.footer span {
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.footer_right_side p {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.descriptions {
+    padding-top: 20px;
+}
+
+.descriptions span {
+    font-weight: bold;
+    display: block;
+    color: rgba(85,85,85,255);
+    padding-top: 2px;
+}
+
+.descriptions img {
+    height: 200px;
+    width: 300px;
+    padding-top: 15px;
+}
+
+.bugs_list {
+    display: block;
+}
+
+.about_section {
+    color: rgba(70, 70, 70, 0.82);
+    margin: auto;
+    text-align: center;
+    width: 700px;
+}
+
+.about_section div {
+    margin-left: 200px;
+}
+
+.about_section h3{
+    color: black;
+}
+
+.about_section img {
+    width: 60px;
+    height: 50px;
+    padding-top: 40px;
+}
+
+.about_section span {
+    font-weight: bold;
+}
+
+::placeholder {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-left: 10px;
+}
